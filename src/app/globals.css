@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Theme B: Aura Atelier (Light Mode - Warm Linen & Burnished Bronze) */
+  --atelier-bg: #FBF9F5;
+  --atelier-surface: #FFFFFF;
+  --atelier-subtle: #F5F2EB;
+  --atelier-border: #E7E5E4;
+  --atelier-text: #1C1917;
+  --atelier-muted: #78716C;
+  --atelier-dim: #A8A29E;
+  --atelier-bronze: #B45309;
+  --atelier-bronze-hover: #92400E;
+  --atelier-bronze-subtle: #FEF3C7;
+  --atelier-charcoal: #1C1917;
+  --atelier-success: #15803D;
+  --atelier-success-bg: #F0FDF4;
+
+  --font-editorial: 'Newsreader', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.dark {
+  /* Theme B: Aura Atelier (Dark Mode - Espresso Roast & Luminous Bronze) */
+  --atelier-bg: #141210;
+  --atelier-surface: #1C1A17;
+  --atelier-subtle: #292524;
+  --atelier-border: #2E2A27;
+  --atelier-text: #F5F2EB;
+  --atelier-muted: #A8A29E;
+  --atelier-dim: #78716C;
+  --atelier-bronze: #D99B65;
+  --atelier-bronze-hover: #F59E0B;
+  --atelier-bronze-subtle: #2E2015;
+  --atelier-charcoal: #FAF7F2;
+  --atelier-success: #4ADE80;
+  --atelier-success-bg: #0C2818;
+}
+
+body {
+  background-color: var(--atelier-bg);
+  color: var(--atelier-text);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* Custom Editorial Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--atelier-subtle);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--atelier-border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--atelier-muted);
+}
+
+/* Subtle selection color */
+::selection {
+  background-color: var(--atelier-bronze-subtle);
+  color: var(--atelier-text);
+}

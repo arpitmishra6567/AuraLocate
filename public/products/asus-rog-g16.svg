@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" fill="none">
+  <!-- Soft Base Shadow -->
+  <ellipse cx="250" cy="305" rx="195" ry="16" fill="#000000" fill-opacity="0.18" filter="blur(8px)" />
+
+  <!-- ROG Laptop Screen Lid (Angular Edges) -->
+  <rect x="80" y="35" width="340" height="220" rx="6" fill="#09090B" stroke="#27272A" stroke-width="2.5" />
+  
+  <!-- 240Hz Nebula Gaming Display Panel -->
+  <rect x="88" y="43" width="324" height="204" rx="3" fill="#000000" />
+  
+  <!-- Cyberpunk Neon Gaming Visuals on Display -->
+  <path d="M88 180L180 110L270 210L350 90L412 160V247H88V180Z" fill="url(#cyber_neon)" opacity="0.85" />
+  <!-- Republic of Gamers Cyber Text -->
+  <text x="250" y="115" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="900" fill="#22D3EE" text-anchor="middle" letter-spacing="3">REPUBLIC OF GAMERS</text>
+
+  <!-- Laptop Base Chassis (Tri-Fan Angular Architecture) -->
+  <path d="M45 255H455L430 298H70L45 255Z" fill="#18181B" stroke="#3F3F46" stroke-width="1.5" />
+  
+  <!-- RGB Backlit Keyboard (Per-Key Aura Sync Glow) -->
+  <polygon points="100,258 400,258 390,280 110,280" fill="#09090B" />
+  <line x1="105" y1="264" x2="395" y2="264" stroke="#F43F5E" stroke-width="2.5" stroke-dasharray="10 3" />
+  <line x1="108" y1="272" x2="392" y2="272" stroke="#06B6D4" stroke-width="2.5" stroke-dasharray="10 3" />
+
+  <!-- Trackpad with NumberPad simulation -->
+  <polygon points="210,282 290,282 286,295 214,295" fill="#27272A" stroke="#52525B" stroke-width="1" />
+
+  <!-- ROG Fearless Eye Emblem on Palm Rest -->
+  <g transform="translate(370, 282) scale(0.6)">
+    <path d="M0 5C10 0 20 2 25 10C20 12 10 10 0 5Z" fill="#EF4444" />
+    <path d="M5 8C12 15 22 18 28 15C22 14 15 10 5 8Z" fill="#EF4444" />
+  </g>
+
+  <!-- RTX 4070 & Intel i9 Badges -->
+  <g transform="translate(98, 52)">
+    <rect x="0" y="0" width="76" height="18" rx="2" fill="#000000" fill-opacity="0.8" stroke="#10B981" stroke-width="0.75" />
+    <text x="6" y="12" font-family="sans-serif" font-size="7" font-weight="800" fill="#10B981">RTX 4070 • 140W</text>
+  </g>
+
+  <defs>
+    <linearGradient id="cyber_neon" x1="88" y1="90" x2="412" y2="247" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EC4899" />
+      <stop offset="0.5" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+</svg>

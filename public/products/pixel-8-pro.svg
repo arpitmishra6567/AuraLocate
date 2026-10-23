@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 450" fill="none">
+  <!-- Drop Shadow -->
+  <ellipse cx="250" cy="400" rx="140" ry="24" fill="#000000" fill-opacity="0.14" filter="blur(10px)" />
+
+  <!-- Phone Body (Pixel 8 Pro - Bay Blue) -->
+  <rect x="160" y="40" width="180" height="340" rx="36" fill="#A0C8EA" stroke="#7BA8D0" stroke-width="3" />
+  
+  <!-- Matte Glass Sheen -->
+  <rect x="164" y="44" width="172" height="332" rx="32" fill="url(#pixel_gradient)" opacity="0.9" />
+
+  <!-- Iconic Polished Aluminum Camera Visor Bar -->
+  <path d="M158 95C158 92 160 90 163 90H337C340 90 342 92 342 95V145C342 148 340 150 337 150H163C160 150 158 148 158 145V95Z" fill="#C5DDF2" stroke="#6898C4" stroke-width="2" />
+  
+  <!-- Dual Pill Camera Housing -->
+  <rect x="180" y="105" width="80" height="30" rx="15" fill="#0F172A" />
+  <!-- Main 50MP Lens -->
+  <circle cx="196" cy="120" r="11" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+  <circle cx="196" cy="120" r="5" fill="#0284C7" opacity="0.7" />
+  <!-- Ultra-wide Lens -->
+  <circle cx="244" cy="120" r="11" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+  <circle cx="244" cy="120" r="5" fill="#0284C7" opacity="0.7" />
+
+  <!-- 5x Periscope Telephoto Lens -->
+  <rect x="272" y="108" width="24" height="24" rx="12" fill="#0F172A" />
+  <circle cx="284" cy="120" r="8" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+
+  <!-- LED Flash & Temperature Sensor -->
+  <circle cx="320" cy="112" r="5" fill="#FEF08A" stroke="#FDE047" stroke-width="1" />
+  <circle cx="320" cy="128" r="4" fill="#334155" />
+
+  <!-- Google 'G' Monogram Logo -->
+  <g transform="translate(236, 230) scale(1.4)">
+    <path d="M10 5C7.24 5 5 7.24 5 10C5 12.76 7.24 15 10 15C12.38 15 14.35 13.34 14.84 11.1H10V8.9H17C17.13 9.42 17.2 9.97 17.2 10.55C17.2 14.66 14.39 17.5 10 17.5C5.86 17.5 2.5 14.14 2.5 10C2.5 5.86 5.86 2.5 10 2.5C11.96 2.5 13.68 3.23 15 4.41L13.18 6.23C12.36 5.45 11.27 5 10 5Z" fill="#5A88B4" />
+  </g>
+
+  <!-- Antenna Lines & Buttons -->
+  <rect x="342" y="110" width="3" height="30" rx="1" fill="#6898C4" />
+  <rect x="342" y="150" width="3" height="50" rx="1" fill="#6898C4" />
+
+  <defs>
+    <linearGradient id="pixel_gradient" x1="164" y1="44" x2="336" y2="376" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B2D8F7" />
+      <stop offset="0.5" stop-color="#9BC7EB" />
+      <stop offset="1" stop-color="#80B2DC" />
+    </linearGradient>
+  </defs>
+</svg>

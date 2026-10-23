@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" fill="none">
+  <!-- Soft Base Shadow -->
+  <ellipse cx="250" cy="305" rx="210" ry="16" fill="#000000" fill-opacity="0.16" filter="blur(8px)" />
+
+  <!-- OLED TV Bezel / Outer Frame (Flush Glass) -->
+  <rect x="40" y="40" width="420" height="240" rx="4" fill="#0A0A0C" stroke="#27272A" stroke-width="2.5" />
+  
+  <!-- Active OLED Screen Display (Deep Contrast Cinema) -->
+  <rect x="44" y="44" width="412" height="232" rx="2" fill="url(#oled_screen_grad)" />
+  
+  <!-- Cinematic Visual Glow Pattern on OLED Panel -->
+  <path d="M44 190C120 150 200 230 280 180C360 130 420 170 456 160V276H44V190Z" fill="url(#cinema_wave)" opacity="0.85" />
+  <circle cx="340" cy="110" r="45" fill="url(#sun_glow)" opacity="0.9" />
+
+  <!-- Sony Center Logo -->
+  <text x="250" y="271" font-family="'Times New Roman', serif" font-size="7" font-weight="700" fill="#E4E4E7" text-anchor="middle" letter-spacing="2">SONY</text>
+
+  <!-- Dual Minimalist Metal Blade Stand Feet (Acoustic Surface Multi-position) -->
+  <path d="M100 280L85 305H115L100 280Z" fill="#71717A" stroke="#52525B" stroke-width="1" />
+  <path d="M400 280L385 305H415L400 280Z" fill="#71717A" stroke="#52525B" stroke-width="1" />
+
+  <!-- XR Cognitive Processor Badge Overlay -->
+  <g transform="translate(56, 56)">
+    <rect x="0" y="0" width="70" height="20" rx="3" fill="#000000" fill-opacity="0.6" stroke="#52525B" stroke-width="0.75" />
+    <text x="7" y="14" font-family="sans-serif" font-size="8" font-weight="800" fill="#FFFFFF" letter-spacing="1">BRAVIA XR</text>
+  </g>
+
+  <defs>
+    <linearGradient id="oled_screen_grad" x1="44" y1="44" x2="456" y2="276" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050508" />
+      <stop offset="0.7" stop-color="#0F172A" />
+      <stop offset="1" stop-color="#1E1B4B" />
+    </linearGradient>
+    <linearGradient id="cinema_wave" x1="44" y1="130" x2="456" y2="276" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4338CA" />
+      <stop offset="0.5" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#EC4899" />
+    </linearGradient>
+    <radialGradient id="sun_glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(340 110) rotate(90) scale(45)">
+      <stop stop-color="#FDE047" />
+      <stop offset="0.5" stop-color="#F97316" />
+      <stop offset="1" stop-color="#EF4444" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+</svg>
